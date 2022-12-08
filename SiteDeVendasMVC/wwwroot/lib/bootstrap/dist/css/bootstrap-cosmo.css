@@ -1423,7 +1423,7 @@ a {
 
     a:hover,
     a:focus {
-        color: #ea1e1e;
+        color: #ff6f60;
         text-decoration: underline;
     }
 
@@ -5589,14 +5589,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
         .navbar-inverse .navbar-nav > li > a:hover,
         .navbar-inverse .navbar-nav > li > a:focus {
             color: #ffffff;
-            background-color: #1967be;
+            background-color: #e53935;
         }
 
     .navbar-inverse .navbar-nav > .active > a,
     .navbar-inverse .navbar-nav > .active > a:hover,
     .navbar-inverse .navbar-nav > .active > a:focus {
         color: #ffffff;
-        background-color: #1967be;
+        background-color: #ff6f60;
     }
 
     .navbar-inverse .navbar-nav > .disabled > a,

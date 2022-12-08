@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SiteDeVendasMVC.Models;
 
 namespace SiteDeVendasMVC.Migrations
 {
     [DbContext(typeof(SiteDeVendasMVCContext))]
-    partial class SiteDeVendasMVCContextModelSnapshot : ModelSnapshot
+    [Migration("20221208165958_OtherEntities")]
+    partial class OtherEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
