@@ -1703,12 +1703,12 @@ a.text-primary:focus {
 }
 
 .text-success {
-    color: #ffffff;
+    color: #000;
 }
 
 a.text-success:hover,
 a.text-success:focus {
-    color: #e6e6e6;
+    color: #7f0000;
 }
 
 .text-info {
@@ -1749,7 +1749,7 @@ a.bg-primary:focus {
 }
 
 .bg-success {
-    background-color: #3fb618;
+    background-color: #7f0000;
 }
 
 a.bg-success:hover,
@@ -2972,11 +2972,11 @@ th {
     }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: #f9f9f9;
+    background-color: #333333;
 }
 
 .table-hover > tbody > tr:hover {
-    background-color: #f5f5f5;
+    background-color: #333333;
 }
 
 .table > thead > tr > td.active,
@@ -3014,7 +3014,7 @@ th {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-    background-color: #3fb618;
+    background-color: #7f0000;
 }
 
 .table-hover > tbody > tr > td.success:hover,
@@ -8098,7 +8098,7 @@ body {
 
 .text-success,
 .text-success:hover {
-    color: #3fb618;
+    color: #7f0000;
 }
 
 .text-danger,
@@ -8267,7 +8267,7 @@ a.list-group-item-success.active {
 
     a.list-group-item-success.active:hover,
     a.list-group-item-success.active:focus {
-        background-color: #379f15;
+        background-color: #7f0000;
     }
 
 a.list-group-item-warning.active {
